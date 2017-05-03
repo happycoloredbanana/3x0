@@ -1,0 +1,7 @@
+<h1>Upload a file</h1>
+
+<%= form_tag memories_path, multipart: true do %>
+  <%= file_field_tag :file  %>
+  <%= submit_tag 'Upload file' %>
+<% end %>
+

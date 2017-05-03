@@ -1,0 +1,7 @@
+<h1>All memories</h1>
+<% @memories.each do |memory| %>
+<div>
+  <%= link_to memory.name, memory.url %>
+</div>
+<% end %>
+
